@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2? family=Inter+Tight&family=Montserrat:wght@200;400&family=Unbounded:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+   
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 10px auto;
+    padding-left: 0;
+    font-family: 'Montserrat' ;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size:0.8rem;
+}
+#language{
+    background: rgb(210, 206, 206);
+    border-radius: 10px;
+    padding: 5px;
+    
+    
+}
+.main-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("assets/img/bg.jpg") center;
+    background-attachment: fixed;
+    color: aliceblue;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size:0.6rem;
+}
+h1{
+    font-weight: lighter;
+}
+#logo{
+    margin: 40px 40px 10px 40px;
+
+}
+.main-header>button{
+    background: transparent;
+    border-color: aliceblue;
+    color: aliceblue;
+    text-transform: uppercase;
+    margin:10px;
+    padding: 5px 30px;
+    border: 1px solid;
+    margin-bottom: 40px;
+    
+}
+.header-text{
+font-weight: bold;
+text-align: center;
+margin: 40px;
+
+   
+}
+.icon-part-container{
+    background: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+}
+.list-icon-part{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+    
+}
+.list-icon-part>p{
+    font-size: small;
+    margin-bottom: 40px;
+}
+.list-icon-part>h3{
+    text-transform: uppercase;
+    font-size: medium;
+}
+.list-icon-part button {
+background: transparent;
+border-color: aliceblue;
+border: 1px solid;
+color: aliceblue;
+text-transform: uppercase;
+margin:10px;
+padding: 5px 30px;
+font-size: 0.5rem;
+bottom: 0%;
+
+
+}
+.news-part{
+    background: rgba(237, 236, 236, 0.843);
+    padding-left: 20px;
+    padding-bottom:20px;
+    border-bottom:4px solid ;
+    box-shadow: 0px 20px 30px rgba(237, 236, 236, 0.843);0
+}
+.header-news{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 30px;
+  
+}
+.left-part>h2{
+    font-weight:lighter ;
+    text-transform: uppercase;
+}
+.left-part>p{
+    font-weight:bold ;
+    font-size: small;
+   
+}
+.right-part>button{
+    background: transparent;
+    text-transform: uppercase;  
+    border: solid 1px ;
+    padding: 5px 30px;
+    font-weight:600;
+
+
+}
+.main-news-container{
+  
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.main-news-container>div{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ 
+}
+.main-news-container h4{
+   
+    width: 255px;
+
+    
+}
+.main-news-container p{
+    font-weight:bold ;
+    font-size:0.7rem;
+    margin-bottom: 30px;
+    width: 255px;
+
+    
+}
+
+.main-news-container a{
+ text-decoration: none;
+  
+    
+}
+.main-news-container>div {
+    position: relative;
+
+}
+
+.link{
+    position: absolute;
+    bottom:0%;
+
+}
+.contact-list{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+
+}
+#contact-img img{
+   width:80%
+}
+.list:first-child{
+    margin:auto;
+}
+.list>h5{
+    text-transform: uppercase;
+}
+.infos-p{
+    list-style: none;
+    padding-left:0;
+}
+.infos-p a{
+
+    text-decoration: none;
+    line-height:1.5em;
+ 
+}
+.list:nth-child(3) p{
+    padding-right: 50px;
+}
+.contact-medias{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+.medias-text{
+    padding-left: 20px;
+}
+.medias-text>h3{
+    text-transform:uppercase;
+}
+.medias-logos{
+    display: flex;
+    align-items: center;
+
+}
+footer{
+    background: black;
+    color: aliceblue;
+    text-transform: uppercase;
+
+}
+footer>h3{
+    padding-top:20px;
+    text-align: center;
+
+}
+footer>ul{
+    display: flex;
+    flex-direction: space-around;
+    justify-content: center;
+    list-style: none;
+    padding-left:0;
+    margin-bottom:0;
+}
+footer img{
+    width: 80%;
+}
